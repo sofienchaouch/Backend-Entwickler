@@ -3,6 +3,7 @@ package com.backendentwickler.springbootrestapi.controller;
 import com.backendentwickler.springbootrestapi.service.TreatmentService;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
